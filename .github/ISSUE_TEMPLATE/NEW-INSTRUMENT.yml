@@ -1,6 +1,6 @@
 name: New Instrument Plugin Request
 description: Request a new waggle plugin for a CROCUS instrument
-title: "[waggle-plugin]: "
+title: "New waggle plugin for the [instrument]: "
 labels: ["data-infrastructure", "triage"]
 body:
   - type: markdown
