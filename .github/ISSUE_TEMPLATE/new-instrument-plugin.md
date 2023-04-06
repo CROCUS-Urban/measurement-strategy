@@ -1,0 +1,27 @@
+name: New Instrument Plugin Request
+description: Request a new waggle plugin for a CROCUS instrument
+title: "[waggle-plugin]: "
+labels: ["data-infrastructure", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this instrument plugin!
+  - type: textarea
+    id: what-instrument
+    attributes:
+      label: What instrument do you want a plugin for?
+      description: What is the instrument and what does it measure?
+      placeholder: Tell us what you want connected!
+      value: "Some instrument, it measures something!"
+    validations:
+      required: true
+  - type: textarea
+    id: what-timeline
+    attributes:
+      label: When do you need this plugin written by?
+      description: What is the timeline for implementation?
+      placeholder: Tell us when you want it connected!
+      value: "I need this by July 2023!"
+    validations:
+      required: true
